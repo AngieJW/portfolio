@@ -1,5 +1,5 @@
 *{
-  color: #ffeedd;
+  color: #254f6d;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background: radial-gradient(circle at 50% 50%, rgba(184, 184, 255, 1) 0%, rgba(147, 129, 255, 1) 100%);
+  background: radial-gradient(circle at 50% 50%, #85c7f2 0%, #d6fffb 100%);
   width: 90%;
   margin: 0 auto;
 }
