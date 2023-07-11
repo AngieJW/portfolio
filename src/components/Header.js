@@ -4,9 +4,10 @@ import styled from "styled-components"
 function Header() {
   return (
     <Title>
-       <a>
+       <a href="#">
 
           <span>Angie DUHARD</span>
+
         </a></Title>
   )
 }
@@ -20,6 +21,7 @@ margin: 2em auto;
 a{
   padding: 0 12px;
   cursor: pointer;
+  text-decoration: none;
 
   span{
     font-size: 3em;

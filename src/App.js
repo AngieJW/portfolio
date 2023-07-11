@@ -1,16 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header"
 import Home from "./components/Home";
-import Footer from "./components/Footer"
+import Clones from "./components/Clones";
+import { BrowserRouter as Router ,Routes, Route, Navigate } from 'react-router-dom';
+
 
 function App() {
-  return (
+  return (<Router>
     <div className="App">
-      <Header />
-      <Home />
-      <Footer />
+      <Routes>
+
+        <Route path='/' element={<Home/>}/>
+        <Route path="/clones" element={<Clones/>} />
+
+
+
+      </Routes>
     </div>
+  </Router>
   );
 }
 

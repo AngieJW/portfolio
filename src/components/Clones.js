@@ -2,19 +2,21 @@ import React from 'react';
 import styled from "styled-components";
 import Header from "./Header";
 import Footer from "./Footer";
-import Cards from "./Cards";
 
-function Home() {
-  document.title = "Angie Duhard Porfolio - Fullstack Developpeuse";
+function Clones() {
+  document.title = "Clones recréés avec React - Angie Duhard Porfolio ";
   return (
     <>
       <Header />
-
-      <Cards />
+      <Content></Content>
 
       <Footer />
     </>
   )
 }
 
-export default Home
+export default Clones
+
+const Content = styled.div`
+
+`

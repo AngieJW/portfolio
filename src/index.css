@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,300;0,500;0,900;1,500&display=swap');
+
+/* GOOGLE FONTS
+font-family: 'Cookie', cursive;
+font-family: 'Roboto', sans-serif;
+ */
+
+/* COLOR PALETTE
+TEXT
+DARK BLUE : #254f6d
+BACKGROUND :
+ARCTIC BLUE : #d6fffb
+BLUE : #85c7f2
+CARDS :
+BEEP BLUE : #3e92cc
+*/
+
+
+
 *{
   color: #254f6d;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
