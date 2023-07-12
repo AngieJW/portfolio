@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Container>
       <p>Créé par Angie DUHARD avec React</p>
-      <p>©2023 - En cours de construction - <Link to="https://github.com/AngieJW/portfolio">le Repo ici</Link></p>
+      <p>©2023 - <Link to="https://github.com/AngieJW/portfolio">le Repo ici</Link></p>
 
     </Container>
   )

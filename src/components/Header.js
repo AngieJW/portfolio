@@ -17,7 +17,10 @@ export default Header
 
 const Title = styled.div`
 margin: 2em auto;
-
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
 
 a{
   padding: 0 12px;

@@ -7,11 +7,11 @@ function Cards() {
     <Container>
       <Wrap><Link to='https://www.openairconnect.com'>
         <img src="/images/openairco.png" /></Link>
-        <Link to='https://www.openairconnect.com'><p>OPENAIRCONNECT - Repo GitHub</p></Link>
+        <Link to='https://github.com/AngieJW/OPENAIRCONNECT'><p>OPENAIRCONNECT - Repo GitHub</p></Link>
 
       </Wrap>
-      <Wrap>
-        <img src="/images/tesla.png" />
+      <Wrap> <Link to='/clones'>
+        <img src="/images/tesla.png" /> </Link>
         <Link to='https://github.com/TerevaM/Green_Drive'><p>Green Drive - Repo GitHub</p></Link>
       </Wrap>
       <Wrap> <Link to='/clones'>
