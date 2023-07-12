@@ -12,12 +12,12 @@ function Clones() {
       <Content>
           <Wrap>
             <Link to="https://tesla.angieduhard.com">
-              <img src="/images/tesla.jpg" /></Link>
+              <img src="/images/tesla.jpg" alt="desktop view of tesla clone"/></Link>
             <Link to="https://github.com/AngieJW/tesla-clone"><p>TESLA Clone - Repo GitHub</p></Link>
           </Wrap>
           <Wrap>
             <Link to="https://gpt3.angieduhard.com">
-              <img src="/images/gpt3.jpg" /></Link>
+              <img src="/images/gpt3.jpg" alt="desktop view of gpt3 clone" /></Link>
             <Link to="https://github.com/AngieJW/gpt3"><p>GPT3 Clone - Repo GitHub</p></Link>
           </Wrap>
 

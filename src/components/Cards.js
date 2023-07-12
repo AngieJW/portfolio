@@ -6,16 +6,16 @@ function Cards() {
   return (
     <Container>
       <Wrap><Link to='https://www.openairconnect.com'>
-        <img src="/images/openairco.png" /></Link>
+        <img src="/images/openairco.png" alt="mobile view of openairconnect app"/></Link>
         <Link to='https://github.com/AngieJW/OPENAIRCONNECT'><p>OPENAIRCONNECT - Repo GitHub</p></Link>
 
       </Wrap>
       <Wrap> <Link to='/clones'>
-        <img src="/images/tesla.png" /> </Link>
-        <Link to='https://github.com/TerevaM/Green_Drive'><p>Green Drive - Repo GitHub</p></Link>
+        <img src="/images/tesla.png"  alt="mobile view of tesla app"/> </Link>
+        <Link to='https://github.com/TerevaM/Green_Drive' ><p>Green Drive - Repo GitHub</p></Link>
       </Wrap>
       <Wrap> <Link to='/clones'>
-        <img src="/images/gpt.png" />
+        <img src="/images/gpt.png" alt="mobile view of gpt3 app"/>
         <p>CLONES</p></Link>
       </Wrap>
     </Container>

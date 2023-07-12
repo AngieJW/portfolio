@@ -4,7 +4,7 @@ import styled from "styled-components"
 function Header() {
   return (
     <Title>
-      <a href="#">
+      <a href="/">
 
         <span>Angie DUHARD</span>
 

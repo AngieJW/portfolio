@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from "./components/Home";
 import Clones from "./components/Clones";
-import { BrowserRouter as Router ,Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router ,Routes, Route } from 'react-router-dom';
 
 
 function App() {
