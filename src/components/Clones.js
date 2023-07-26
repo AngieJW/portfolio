@@ -31,10 +31,12 @@ function Clones() {
 export default Clones
 
 const Content = styled.div`
-margin-top: 30px;
+margin: 0 auto;
 padding: 30px 0px;
 display: flex;
-justify-content: space-around;
+justify-content: center;
+align-items: center;
+gap: 20px;
 
 @media(max-width: 1000px) {
   flex-direction: column;
@@ -45,7 +47,7 @@ const Wrap = styled.div`
 
   width: 400px;
   cursor: pointer;
-  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
 
   a {
     text-decoration: none;
@@ -55,9 +57,11 @@ const Wrap = styled.div`
     width: 400px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   }
 
   p{
+    margin-top: 10px;
     color: white;
     letter-spacing: 1.2;
     border-radius: 40px;
@@ -70,7 +74,7 @@ const Wrap = styled.div`
 
   }
 
-  &:hover {
+  img:hover {
     transform: scale(1.05);
     border-color: rgba(249, 249, 249, 0.8);
   }

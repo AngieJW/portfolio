@@ -15,15 +15,16 @@ function Footer() {
 export default Footer
 
 const Container = styled.div`
-  margin-top: 100px;
+  margin-top: 200px;
   border-top: 1px solid white;
   display: flex;
+  opacity: 0.8;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 200px;
   font-size: 24px;
-  line-height: 45px;
+  line-height: 25px;
   text-align: center;
   letter-spacing: -0.04em;
 

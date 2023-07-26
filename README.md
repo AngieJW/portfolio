@@ -1,3 +1,11 @@
+### PROJECT PORTFOLIO
+
+This portfolio is designed to hold all of my projects.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
